@@ -1,0 +1,146 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*
+{
+	box-sizing: border-box;
+}
+
+h2
+{
+    color: #E6A100;
+}
+
+/* body */
+body
+{
+    background-color: #D9DBDD;
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+header
+{
+    display: inline;
+    text-align: center;
+}
+
+header .jumbovision
+{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 60px;
+    text-align: center;
+}
+
+header nav
+{
+    background-color: #FFB200;
+    padding: 5px;
+	position: sticky;
+	top: 0;
+}
+
+header nav li
+{
+    display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+header nav a
+{
+	color: #FFFFFF;
+    font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+/* main */
+main
+{
+	overflow: auto;
+	padding: 20px;
+}
+
+main #content
+{
+    float: left;
+    width: 75%;
+}
+
+main aside
+{
+	float: right;
+	padding-left: 20px;
+	width: 25%;
+}
+
+main aside section img
+{
+    padding: 10px;
+}
+
+main aside section img:hover
+{
+    opacity: 0.7;
+}
+
+/* footer */
+footer
+{
+	background-color: #FCB613;
+	color: #000000;
+	padding: 10px;
+	text-align: center;
+}
+
+footer p span
+{
+    color: #FF0000;
+}
+
+/* side img */
+.circular
+{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.figure 
+{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.featured-img
+{
+	max-height: 500px;
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+}
+
+.figure header
+{
+	text-align: center;
+}
+
+@media screen and (max-width: 1000px)
+{
+    main #content,
+    main aside 
+    {
+        padding: 0;
+        width: 100%;
+    }
+}
